@@ -64,14 +64,14 @@ class PlaylistProvider extends ChangeNotifier{
       Song(
       songName: "Me enamore en la cola de las tortillas",
        artistName: "Los Estrambólicos",
-        albumArtImagePath: "me_enamore_en_la_cola_de_las_tortillas.jpg", 
+        albumArtImagePath: "lib/assets/images/me_enamore_en_la_cola_de_las_tortillas.jpg", 
         audioPath: "lib/song/Me enamore en la cola de las tortillas.mp3",
         ),
     //Song 10
       Song(
       songName: "Mi cucu",
        artistName: "La sonora dinamita",
-        albumArtImagePath: "lib/assets/images/Mi cucu.jpg", 
+        albumArtImagePath: "lib/assets/images/Mi_cucu.jpg", 
         audioPath: "lib/song/Mi cucu.mp3",
         ),
     //Song 11
@@ -99,6 +99,7 @@ class PlaylistProvider extends ChangeNotifier{
 */
 
 List<Song> get playList => _playlist;
+// ignore: non_constant_identifier_names
 int? get CurrentSongIndex => _currentSongIndex;
 
 
@@ -107,6 +108,7 @@ int? get CurrentSongIndex => _currentSongIndex;
 S E T T E R S
 
 */
+// ignore: non_constant_identifier_names
 set CurrentSongIndex(int? newIndex){
 
   //update current song index
